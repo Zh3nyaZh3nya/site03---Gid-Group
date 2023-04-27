@@ -1,14 +1,7 @@
-import { createStore } from 'vuex'
-
+import { createStore } from "vuex";
+import calcData from "@/store/modules/calcData";
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
-  }
-})
+    calcData
+  },
+});
