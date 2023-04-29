@@ -1,4 +1,11 @@
-# site03
+# site03 - Gid Group
+
+```
+Vue 3 + vuex Store ( Option API, SCSS )
+```
+
+![33333](https://user-images.githubusercontent.com/129783207/235327294-94f6fe61-6a79-4dea-aa67-835eb7ed8300.png)
+
 
 ## Project setup
 ```
@@ -15,5 +22,4 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
