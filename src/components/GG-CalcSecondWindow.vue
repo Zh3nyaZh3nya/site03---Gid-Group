@@ -191,7 +191,7 @@
 import GGButton from "@/components/UI/GG-Button";
 import {mapGetters, mapActions} from "vuex";
 export default {
-  name: "GG-CalcSecondWindow",
+  name: "gg-calc-second-window",
   components: {
     GGButton
   },

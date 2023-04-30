@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: "GG-BurgerMenu.vue",
+  name: "gg-burger-menu",
   props: {
     burger_link: {
       type: Object,

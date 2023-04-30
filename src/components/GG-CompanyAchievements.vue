@@ -9,7 +9,7 @@
 <script>
 import GGCompanyAchievementsItem from "@/components/GG-CompanyAchievementsItem";
 export default {
-  name: "GG-Company achievements",
+  name: "gg-company-achievements",
   components: {
     GGCompanyAchievementsItem,
   },

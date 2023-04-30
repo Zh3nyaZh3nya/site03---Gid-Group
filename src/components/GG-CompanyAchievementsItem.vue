@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "GG-CompanyAchievementsItem",
+  name: "gg-company-achievements-item",
   props: {
     achievements_item: {
       type: Object,

@@ -44,7 +44,7 @@ import GGButton from "@/components/UI/GG-Button";
 import { mapGetters } from "vuex";
 
 export default {
-  name: "GG-CalcFirstWindow",
+  name: "gg-calc-first-window",
   components: {
     GGButton,
   },

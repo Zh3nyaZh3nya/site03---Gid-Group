@@ -24,7 +24,7 @@ import GGCalcSecondWindow from "@/components/GG-CalcSecondWindow";
 import GGCalcThirdWindow from "@/components/GG-CalcThirdWindow";
 import {mapGetters} from "vuex";
 export default {
-  name: "GG-Calc",
+  name: "gg-calc",
   components: {
     GGCalcOneWindow,
     GGCalcSecondWindow,

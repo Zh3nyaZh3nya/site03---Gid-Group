@@ -62,7 +62,7 @@
 import {mapGetters} from "vuex";
 import GGButton from "@/components/UI/GG-Button";
 export default {
-  name: "GG-CalcThirdWindow",
+  name: "gg-calc-third-window",
   components: {
     GGButton
   },

@@ -56,7 +56,7 @@
 import GGButton from "@/components/UI/GG-Button";
 import GGCalc from "@/components/GG-Calc";
 export default {
-  name: "GG-ProjectCost",
+  name: "gg-project-cost",
   components: {
     GGButton,
     GGCalc
@@ -92,6 +92,7 @@ export default {
 <style lang="scss">
 .project__cost {
   position: relative;
+  margin-bottom: 85px;
   &__info {
     &-title {
       margin-bottom: 80px;
