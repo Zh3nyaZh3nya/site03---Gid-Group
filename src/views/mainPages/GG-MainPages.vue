@@ -1,29 +1,26 @@
 <template>
   <GGHeader />
   <div class="mainPages">
-
-    <GGCompanyAchievements />
-
-    <GGProjectCost />
-
-    <GgBasicServices />
-
+    <gg-company-achievements />
+    <gg-project-cost />
+    <gg-basic-services />
+    <gg-our-projects />
   </div>
 </template>
 
 <script>
 import GGHeader from "@/components/UI/GG-Header";
-import GGCompanyAchievements from "@/components/GG-CompanyAchievements";
-import GGProjectCost from "@/components/GG-ProjectCost";
-import GGCalc from "@/components/GG-Calc";
+import GgCompanyAchievements from "@/components/GG-CompanyAchievements";
+import GgProjectCost from "@/components/GG-ProjectCost";
 import GgBasicServices from "@/components/GG-BasicServices";
+import GgOurProjects from "@/components/GG-OurProjects";
 export default {
   components: {
+    GgProjectCost,
+    GgCompanyAchievements,
+    GgOurProjects,
     GgBasicServices,
     GGHeader,
-    GGCompanyAchievements,
-    GGProjectCost,
-    GGCalc,
   },
 };
 </script>

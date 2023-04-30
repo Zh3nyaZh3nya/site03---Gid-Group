@@ -56,6 +56,7 @@ export default {
 
 <style lang="scss">
 .services__wrapper {
+  margin-bottom: 49px;
   .services__content {
     &__items {
       padding: 52px 86px;
