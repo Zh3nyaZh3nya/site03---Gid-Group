@@ -6,8 +6,6 @@
 
     <GGProjectCost />
 
-    <GGCalc />
-
   </div>
 </template>
 

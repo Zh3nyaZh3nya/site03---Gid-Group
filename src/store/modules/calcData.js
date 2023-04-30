@@ -56,7 +56,6 @@ export default {
                     {
                         id: 1,
                         titleOthers: "Двери",
-                        selectedButtonDoor: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -67,13 +66,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -87,13 +84,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -103,7 +98,6 @@ export default {
                     {
                         id: 2,
                         titleOthers: "Розетки",
-                        selectedButtonSocket: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -114,19 +108,59 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "3",
-                                        selectedButton: "btnSocket",
                                         price: 3000
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "5",
-                                        selectedButton: "btnSocket",
                                         price: 5000
                                     },
                                 ]
                             },
                         ]
                     }
+                ],
+                additionalOptions: [
+                    {
+                        id: 1,
+                        nameOption: "Фартук на кухне",
+                        priceOption: 18000,
+                    },
+                    {
+                        id: 2,
+                        nameOption: "Стальная входная дверь",
+                        priceOption: 67000,
+                    },
+                    {
+                        id: 3,
+                        nameOption: "Теплый пол в санузле",
+                        priceOption: 32000,
+                    },
+                    {
+                        id: 4,
+                        nameOption: "Кондиционеры",
+                        priceOption: 48000,
+                    },
+                    {
+                        id: 5,
+                        nameOption: "Аксессуары в ванную",
+                        priceOption: 7000,
+                    },
+                    {
+                        id: 6,
+                        nameOption: "Замена окон",
+                        priceOption: 20000,
+                    },
+                    {
+                        id: 7,
+                        nameOption: "Замена радиаторов",
+                        priceOption: 33000,
+                    },
+                    {
+                        id: 8,
+                        nameOption: "Замена окон",
+                        priceOption: 15000,
+                    },
                 ]
             },
             {
@@ -178,7 +212,6 @@ export default {
                     {
                         id: 1,
                         titleOthers: "Двери",
-                        selectedButtonDoor: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -189,13 +222,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -209,13 +240,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -225,7 +254,6 @@ export default {
                     {
                         id: 2,
                         titleOthers: "Розетки",
-                        selectedButtonSocket: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -236,19 +264,59 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "1",
-                                        selectedButton: "btnSocket",
                                         price: 1000
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "3",
-                                        selectedButton: "btnSocket",
                                         price: 3000
                                     },
                                 ]
                             },
                         ]
                     }
+                ],
+                additionalOptions: [
+                    {
+                        id: 1,
+                        nameOption: "Фартук на кухне",
+                        priceOption: 18000,
+                    },
+                    {
+                        id: 2,
+                        nameOption: "Стальная входная дверь",
+                        priceOption: 67000,
+                    },
+                    {
+                        id: 3,
+                        nameOption: "Теплый пол в санузле",
+                        priceOption: 32000,
+                    },
+                    {
+                        id: 4,
+                        nameOption: "Кондиционеры",
+                        priceOption: 48000,
+                    },
+                    {
+                        id: 5,
+                        nameOption: "Аксессуары в ванную",
+                        priceOption: 7000,
+                    },
+                    {
+                        id: 6,
+                        nameOption: "Замена окон",
+                        priceOption: 20000,
+                    },
+                    {
+                        id: 7,
+                        nameOption: "Замена радиаторов",
+                        priceOption: 33000,
+                    },
+                    {
+                        id: 8,
+                        nameOption: "Замена окон",
+                        priceOption: 15000,
+                    },
                 ]
             },
             {
@@ -300,7 +368,6 @@ export default {
                     {
                         id: 1,
                         titleOthers: "Двери",
-                        selectedButtonDoor: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -311,13 +378,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -331,13 +396,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -347,7 +410,6 @@ export default {
                     {
                         id: 2,
                         titleOthers: "Розетки",
-                        selectedButtonSocket: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -358,19 +420,59 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "3",
-                                        selectedButton: "btnSocket",
                                         price: 3000,
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "5",
-                                        selectedButton: "btnSocket",
                                         price: 5000,
                                     },
                                 ]
                             },
                         ]
                     }
+                ],
+                additionalOptions: [
+                    {
+                        id: 1,
+                        nameOption: "Фартук на кухне",
+                        priceOption: 18000,
+                    },
+                    {
+                        id: 2,
+                        nameOption: "Стальная входная дверь",
+                        priceOption: 67000,
+                    },
+                    {
+                        id: 3,
+                        nameOption: "Теплый пол в санузле",
+                        priceOption: 32000,
+                    },
+                    {
+                        id: 4,
+                        nameOption: "Кондиционеры",
+                        priceOption: 48000,
+                    },
+                    {
+                        id: 5,
+                        nameOption: "Аксессуары в ванную",
+                        priceOption: 7000,
+                    },
+                    {
+                        id: 6,
+                        nameOption: "Замена окон",
+                        priceOption: 20000,
+                    },
+                    {
+                        id: 7,
+                        nameOption: "Замена радиаторов",
+                        priceOption: 33000,
+                    },
+                    {
+                        id: 8,
+                        nameOption: "Замена окон",
+                        priceOption: 15000,
+                    },
                 ]
             },
             {
@@ -416,7 +518,6 @@ export default {
                     {
                         id: 1,
                         titleOthers: "Двери",
-                        selectedButtonDoor: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -427,13 +528,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -447,13 +546,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -463,7 +560,6 @@ export default {
                     {
                         id: 2,
                         titleOthers: "Розетки",
-                        selectedButtonSocket: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -474,19 +570,59 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2",
-                                        selectedButton: "btnSocket",
                                         price: 2000
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "4",
-                                        selectedButton: "btnSocket",
                                         price: 4000
                                     },
                                 ]
                             },
                         ]
                     }
+                ],
+                additionalOptions: [
+                    {
+                        id: 1,
+                        nameOption: "Фартук на кухне",
+                        priceOption: 18000,
+                    },
+                    {
+                        id: 2,
+                        nameOption: "Стальная входная дверь",
+                        priceOption: 67000,
+                    },
+                    {
+                        id: 3,
+                        nameOption: "Теплый пол в санузле",
+                        priceOption: 32000,
+                    },
+                    {
+                        id: 4,
+                        nameOption: "Кондиционеры",
+                        priceOption: 48000,
+                    },
+                    {
+                        id: 5,
+                        nameOption: "Аксессуары в ванную",
+                        priceOption: 7000,
+                    },
+                    {
+                        id: 6,
+                        nameOption: "Замена окон",
+                        priceOption: 20000,
+                    },
+                    {
+                        id: 7,
+                        nameOption: "Замена радиаторов",
+                        priceOption: 33000,
+                    },
+                    {
+                        id: 8,
+                        nameOption: "Замена окон",
+                        priceOption: 15000,
+                    },
                 ]
             },
             {
@@ -526,7 +662,6 @@ export default {
                     {
                         id: 1,
                         titleOthers: "Двери",
-                        selectedButtonDoor: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -537,13 +672,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -557,13 +690,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -573,7 +704,6 @@ export default {
                     {
                         id: 2,
                         titleOthers: "Розетки",
-                        selectedButtonSocket: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -584,19 +714,59 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "7",
-                                        selectedButton: "btnSocket",
                                         price: 7000
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "9",
-                                        selectedButton: "btnSocket",
                                         price: 9000
                                     },
                                 ]
                             },
                         ]
                     }
+                ],
+                additionalOptions: [
+                    {
+                        id: 1,
+                        nameOption: "Фартук на кухне",
+                        priceOption: 18000,
+                    },
+                    {
+                        id: 2,
+                        nameOption: "Стальная входная дверь",
+                        priceOption: 67000,
+                    },
+                    {
+                        id: 3,
+                        nameOption: "Теплый пол в санузле",
+                        priceOption: 32000,
+                    },
+                    {
+                        id: 4,
+                        nameOption: "Кондиционеры",
+                        priceOption: 48000,
+                    },
+                    {
+                        id: 5,
+                        nameOption: "Аксессуары в ванную",
+                        priceOption: 7000,
+                    },
+                    {
+                        id: 6,
+                        nameOption: "Замена окон",
+                        priceOption: 20000,
+                    },
+                    {
+                        id: 7,
+                        nameOption: "Замена радиаторов",
+                        priceOption: 33000,
+                    },
+                    {
+                        id: 8,
+                        nameOption: "Замена окон",
+                        priceOption: 15000,
+                    },
                 ]
             },
             {
@@ -642,7 +812,6 @@ export default {
                     {
                         id: 1,
                         titleOthers: "Двери",
-                        selectedButtonDoor: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -653,13 +822,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -673,13 +840,11 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "2.1",
-                                        selectedButton: "btnDoor",
                                         price: 2100
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2.4",
-                                        selectedButton: "btnDoor",
                                         price: 2400
                                     },
                                 ]
@@ -689,7 +854,6 @@ export default {
                     {
                         id: 2,
                         titleOthers: "Розетки",
-                        selectedButtonSocket: [],
                         bodyOthers: [
                             {
                                 id: 1,
@@ -700,24 +864,65 @@ export default {
                                     {
                                         id: 1,
                                         nameBtn: "1",
-                                        selectedButton: "btnSocket",
                                         price: 1000
                                     },
                                     {
                                         id: 2,
                                         nameBtn: "2",
-                                        selectedButton: "btnSocket",
                                         price: 2000
                                     },
                                 ]
                             },
                         ]
                     }
+                ],
+                additionalOptions: [
+                    {
+                        id: 1,
+                        nameOption: "Фартук на кухне",
+                        priceOption: 18000,
+                    },
+                    {
+                        id: 2,
+                        nameOption: "Стальная входная дверь",
+                        priceOption: 67000,
+                    },
+                    {
+                        id: 3,
+                        nameOption: "Теплый пол в санузле",
+                        priceOption: 32000,
+                    },
+                    {
+                        id: 4,
+                        nameOption: "Кондиционеры",
+                        priceOption: 48000,
+                    },
+                    {
+                        id: 5,
+                        nameOption: "Аксессуары в ванную",
+                        priceOption: 7000,
+                    },
+                    {
+                        id: 6,
+                        nameOption: "Замена окон",
+                        priceOption: 20000,
+                    },
+                    {
+                        id: 7,
+                        nameOption: "Замена радиаторов",
+                        priceOption: 33000,
+                    },
+                    {
+                        id: 8,
+                        nameOption: "Замена окон",
+                        priceOption: 15000,
+                    },
                 ]
             },
         ],
         selectItemCalc: [],
         cost: 0,
+        prevCost: null,
     },
     mutations: {
         UPDATE_CALC_DATA(state, img) {
@@ -746,5 +951,8 @@ export default {
         getOthers: state => {
             return state.selectItemCalc.others;
         },
+        getAdditionalOption: state => {
+            return state.selectItemCalc.additionalOptions;
+        }
     }
 }

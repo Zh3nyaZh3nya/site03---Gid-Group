@@ -18,8 +18,10 @@
           </div>
 
           <div class="project__cost__info__body__right-btn">
-            <GGButton id="black-button"><span>Узнать стоимость</span></GGButton>
+            <GGButton id="black-button" @click="openCalc"><span>Узнать стоимость</span></GGButton>
           </div>
+
+          <GGCalc :openCalc="visibleCalc" @closeCalc="closeCalc"/>
 
         </div>
         <div class="project__cost__info__body__left">
@@ -52,10 +54,12 @@
 
 <script>
 import GGButton from "@/components/UI/GG-Button";
+import GGCalc from "@/components/GG-Calc";
 export default {
   name: "GG-ProjectCost",
   components: {
     GGButton,
+    GGCalc
   },
   data() {
     return {
@@ -71,7 +75,16 @@ export default {
           bonus: "5 трендов 2021 года на дизайн интерьеров",
         },
       ],
+      visibleCalc: false,
     };
+  },
+  methods: {
+    openCalc() {
+      this.visibleCalc = !this.visibleCalc;
+    },
+    closeCalc() {
+      this.visibleCalc = false;
+    }
   },
 };
 </script>
