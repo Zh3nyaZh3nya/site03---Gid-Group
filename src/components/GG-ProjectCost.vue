@@ -1,10 +1,12 @@
 <template>
-  <div class="project__cost">
+  <section class="project__cost">
     <div class="project__cost__info">
 
       <div class="project__cost__info-title">
         <h2>СТОИМОСТЬ ПРОЕКТА</h2>
-        <img src="@/assets/images/svgIcon/line.svg" alt="" />
+        <div class="title-line">
+          <img src="@/assets/images/svgIcon/line.svg" alt=""/>
+        </div>
       </div>
 
       <div class="project__cost__info__body">
@@ -49,7 +51,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -98,10 +100,6 @@ export default {
       margin-bottom: 80px;
       h2 {
         margin-bottom: 20px;
-      }
-      img {
-        position: absolute;
-        left: -12px;
       }
     }
     &__body {

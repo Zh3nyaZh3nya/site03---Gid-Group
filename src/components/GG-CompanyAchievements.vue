@@ -1,9 +1,9 @@
 <template>
-  <div class="achievements">
+  <section class="achievements">
     <div v-for="achievement in achievementsCompany" :key="achievement.id">
       <GGCompanyAchievementsItem :achievements_item="achievement" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
