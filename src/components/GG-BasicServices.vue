@@ -58,6 +58,9 @@ export default {
 .services__wrapper {
   margin-bottom: 49px;
   .services__content {
+    &-title {
+      position: relative;
+    }
     &__items {
       padding: 52px 86px;
       &-item {

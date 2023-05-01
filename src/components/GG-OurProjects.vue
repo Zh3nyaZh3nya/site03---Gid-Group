@@ -80,6 +80,9 @@ export default {
 .projects__wrapper {
   margin-bottom: 75px;
   .projects__content {
+    &-title {
+      position: relative;
+    }
     &__items {
       display: grid;
       grid-template-columns: repeat(3, 1fr);

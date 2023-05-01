@@ -40,4 +40,10 @@ export default {
 #black-button {
   background: $black-color;
 }
+#white-button {
+  background: none;
+  span {
+    color: #000;
+  }
+}
 </style>

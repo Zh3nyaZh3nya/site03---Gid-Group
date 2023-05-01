@@ -5,6 +5,7 @@
     <gg-project-cost />
     <gg-basic-services />
     <gg-our-projects />
+    <gg-ordering-process />
   </div>
 </template>
 
@@ -14,8 +15,10 @@ import GgCompanyAchievements from "@/components/GG-CompanyAchievements";
 import GgProjectCost from "@/components/GG-ProjectCost";
 import GgBasicServices from "@/components/GG-BasicServices";
 import GgOurProjects from "@/components/GG-OurProjects";
+import GgOrderingProcess from "@/components/GG-OrderingProcess";
 export default {
   components: {
+    GgOrderingProcess,
     GgProjectCost,
     GgCompanyAchievements,
     GgOurProjects,
